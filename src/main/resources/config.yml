@@ -1,0 +1,491 @@
+Items:
+  ARROW:
+    type: PROJECTILE
+  BLACK_DYE:
+    type: DYE
+    rarity: COMMON
+  BLUE_DYE:
+    type: DYE
+    rarity: COMMON
+  BOW:
+    type: BOW
+    durability: 384
+  BROWN_DYE:
+    type: DYE
+    rarity: COMMON
+  CARROT_ON_A_STICK:
+    durability: 25
+  CROSSBOW:
+    type: CROSSBOW
+    durability: 465
+  COMPASS:
+    type: COMPASS
+    rarity: COMMON
+  CYAN_DYE:
+    type: DYE
+    rarity: COMMON
+  FISHING_ROD:
+    type: ROD
+    rarity: COMMON
+    durability: 64
+  GRAY_DYE:
+    type: DYE
+    rarity: COMMON
+  GREEN_DYE:
+    type: DYE
+    rarity: COMMON
+  LIGHT_BLUE_DYE:
+    type: DYE
+    rarity: COMMON
+  LIGHT_GRAY_DYE:
+    type: DYE
+    rarity: COMMON
+  LIME_DYE:
+    type: DYE
+    rarity: COMMON
+  MAGENTA_DYE:
+    type: DYE
+    rarity: COMMON
+  ORANGE_DYE:
+    type: DYE
+    rarity: COMMON
+  PINK_DYE:
+    type: DYE
+    rarity: COMMON
+  PURPLE_DYE:
+    type: DYE
+    rarity: COMMON
+  SPECTRAL_ARROW:
+    type: PROJECTILE
+    rarity: UNCOMMON
+  RED_DYE:
+    type: DYE
+    rarity: COMMON
+  SHIELD:
+    durability: 336
+  WHITE_DYE:
+    type: DYE
+    rarity: COMMON
+  WARPED_FUNGUS_ON_A_STICK:
+    durability: 100
+  WOODEN_AXE:
+    type: AXE
+    rarity: COMMON
+    durability: 59
+    damage: 7
+  WOODEN_HOE:
+    type: HOE
+    rarity: COMMON
+    durability: 59
+  WOODEN_PICKAXE:
+    type: PICKAXE
+    rarity: COMMON
+    durability: 59
+  WOODEN_SHOVEL:
+    type: SHOVEL
+    rarity: COMMON
+    durability: 59
+  WOODEN_SWORD:
+    type: SWORD
+    rarity: COMMON
+    durability: 59
+    damage: 4
+  YELLOW_DYE:
+    type: DYE
+    rarity: COMMON
+
+  LEATHER_HELMET:
+    type: HELMET
+    rarity: COMMON
+    durability: 55
+    defense: 1
+  LEATHER_CHESTPLATE:
+    type: CHESTPLATE
+    rarity: COMMON
+    durability: 80
+    defense: 3
+  LEATHER_LEGGINGS:
+    type: LEGGINGS
+    rarity: COMMON
+    durability: 75
+    defense: 2
+  LEATHER_BOOTS:
+    type: BOOTS
+    rarity: COMMON
+    durability: 65
+    defense: 1
+  GOLD_HELMET:
+    type: HELMET
+    rarity: COMMON
+    durability: 77
+    defense: 2
+  GOLD_CHESTPLATE:
+    type: CHESTPLATE
+    rarity: COMMON
+    durability: 112
+    defense: 5
+  GOLD_LEGGINGS:
+    type: LEGGINGS
+    rarity: COMMON
+    durability: 105
+    defense: 3
+  GOLD_BOOTS:
+    type: BOOTS
+    rarity: COMMON
+    durability: 91
+    defense: 1
+  CHAINMAIL_HELMET:
+    type: HELMET
+    rarity: COMMON
+    durability: 165
+    defense: 2
+  CHAINMAIL_CHESTPLATE:
+    type: CHESTPLATE
+    rarity: COMMON
+    durability: 240
+    defense: 5
+  CHAINMAIL_LEGGINGS:
+    type: LEGGINGS
+    rarity: COMMON
+    durability: 225
+    defense: 4
+  CHAINMAIL_BOOTS:
+    type: BOOTS
+    rarity: COMMON
+    durability: 195
+    defense: 1
+  IRON_HELMET:
+    type: HELMET
+    rarity: COMMON
+    durability: 165
+    defense: 2
+  IRON_CHESTPLATE:
+    type: CHESTPLATE
+    rarity: COMMON
+    durability: 240
+    defense: 6
+  IRON_LEGGINGS:
+    type: LEGGINGS
+    rarity: COMMON
+    durability: 225
+    defense: 5
+  IRON_BOOTS:
+    type: BOOTS
+    rarity: COMMON
+    durability: 195
+    defense: 2
+
+  RABBIT_FOOT:
+    rarity: UNCOMMON
+  TINTED_GLASS:
+    rarity: UNCOMMON
+  TIPPED_ARROW:
+    rarity: UNCOMMON
+  TOTEM_OF_UNDYING:
+    rarity: UNCOMMON
+    type: TOTEM
+    description:
+      - "&7Gives you a second chance at life!"
+      - "&7Only active when held."
+  TURTLE_HELMET:
+    type: HELMET
+    rarity: UNCOMMON
+    durability: 275
+    defense: 2
+
+  ANCIENT_DEBRIS:
+    rarity: RARE
+  DIAMOND:
+    rarity: RARE
+  DIAMOND_AXE:
+    type: AXE
+    rarity: RARE
+  DIAMOND_BLOCK:
+    rarity: RARE
+  DIAMOND_BOOTS:
+    type: BOOTS
+    rarity: RARE
+    durability: 429
+    defense: 3
+    toughness: 2
+  DIAMOND_CHESTPLATE:
+    type: CHESTPLATE
+    rarity: RARE
+    durability: 528
+    defense: 8
+    toughness: 2
+  DIAMOND_HELMET:
+    type: HELMET
+    rarity: RARE
+    durability: 363
+    defense: 3
+    toughness: 2
+  DIAMOND_HOE:
+    type: HOE
+    rarity: RARE
+  DIAMOND_LEGGINGS:
+    type: LEGGINGS
+    rarity: RARE
+    durability: 495
+    defense: 6
+    toughness: 2
+  DIAMOND_PICKAXE:
+    type: PICKAXE
+    rarity: RARE
+  DIAMOND_SHOVEL:
+    type: SHOVEL
+    rarity: RARE
+  DIAMOND_SWORD:
+    type: SWORD
+    rarity: RARE
+  DISC_FRAGMENT:
+    rarity: RARE
+  ECHO_SHARD:
+    rarity: RARE
+  NETHERITE_SCRAP:
+    rarity: RARE
+  SHULKER_SHELL:
+    rarity: RARE
+  TRIDENT:
+    type: TRIDENT
+    rarity: RARE
+  WITHER_SKELETON_SKULL:
+    rarity: RARE
+
+  BEACON:
+    rarity: EPIC
+  CONDUIT:
+    rarity: EPIC
+  ELYTRA:
+    type: WINGS
+    rarity: EPIC
+    durability: 481
+  HEART_OF_THE_SEA:
+    rarity: EPIC
+  NETHERITE_AXE:
+    type: AXE
+    rarity: EPIC
+  NETHERITE_BOOTS:
+    type: BOOTS
+    rarity: EPIC
+    durability: 481
+    defense: 3
+    toughness: 3
+  NETHERITE_CHESTPLATE:
+    type: CHESTPLATE
+    rarity: EPIC
+    durability: 592
+    defense: 8
+    toughness: 3
+  NETHERITE_HELMET:
+    type: HELMET
+    rarity: EPIC
+    durability: 407
+    defense: 3
+    toughness: 3
+  NETHERITE_HOE:
+    type: HOE
+    rarity: EPIC
+  NETHERITE_INGOT:
+    rarity: EPIC
+  NETHERITE_LEGGINGS:
+    type: LEGGINGS
+    rarity: EPIC
+    durability: 555
+    defense: 6
+    toughness: 3
+  NETHERITE_PICKAXE:
+    type: PICKAXE
+    rarity: EPIC
+  NETHERITE_SHOVEL:
+    type: SHOVEL
+    rarity: EPIC
+  NETHERITE_SWORD:
+    type: SWORD
+    rarity: EPIC
+  SHULKER_BOX:
+    rarity: EPIC
+
+  CREEPER_HEAD:
+    rarity: LEGENDARY
+  DRAGON_EGG:
+    rarity: LEGENDARY
+  ENCHANTED_GOLDEN_APPLE:
+    rarity: LEGENDARY
+  NETHERITE_BLOCK:
+    rarity: LEGENDARY
+  SKELETON_SKULL:
+    rarity: LEGENDARY
+  ZOMBIE_SKULL:
+    rarity: LEGENDARY
+
+  BARRIER:
+    rarity: SPECIAL
+  BEDROCK:
+    rarity: SPECIAL
+  BUDDING_AMETHYST:
+    rarity: SPECIAL
+  BUNDLE:
+    rarity: SPECIAL
+  CHAIN_COMMAND_BLOCK:
+    rarity: SPECIAL
+  COMMAND_BLOCK:
+    rarity: SPECIAL
+  COMMAND_BLOCK_MINECART:
+    rarity: SPECIAL
+  DEBUG_STICK:
+    rarity: SPECIAL
+  JIGSAW:
+    rarity: SPECIAL
+  KNOWLEDGE_BOOK:
+    rarity: SPECIAL
+  LIGHT:
+    rarity: SPECIAL
+  PLAYER_HEAD:
+    rarity: SPECIAL
+  REINFORCED_DEEPSLATE:
+    rarity: SPECIAL
+  REPEATING_COMMAND_BLOCK:
+    rarity: SPECIAL
+  STRUCTURE_BLOCK:
+    rarity: SPECIAL
+  STRUCTURE_VOID:
+    rarity: SPECIAL
+  ALLAY_SPAWN_EGG:
+    rarity: SPECIAL
+  AXOLOTL_SPAWN_EGG:
+    rarity: SPECIAL
+  BAT_SPAWN_EGG:
+    rarity: SPECIAL
+  BEE_SPAWN_EGG:
+    rarity: SPECIAL
+  BLAZE_SPAWN_EGG:
+    rarity: SPECIAL
+  CAT_SPAWN_EGG:
+    rarity: SPECIAL
+  CAVE_SPIDER_SPAWN_EGG:
+    rarity: SPECIAL
+  CHICKEN_SPAWN_EGG:
+    rarity: SPECIAL
+  COD_SPAWN_EGG:
+    rarity: SPECIAL
+  COW_SPAWN_EGG:
+    rarity: SPECIAL
+  CREEPER_SPAWN_EGG:
+    rarity: SPECIAL
+  DOLPHIN_SPAWN_EGG:
+    rarity: SPECIAL
+  DONKEY_SPAWN_EGG:
+    rarity: SPECIAL
+  DROWNED_SPAWN_EGG:
+    rarity: SPECIAL
+  ELDER_GUARDIAN_SPAWN_EGG:
+    rarity: SPECIAL
+  ENDERMAN_SPAWN_EGG:
+    rarity: SPECIAL
+  ENDERMITE_SPAWN_EGG:
+    rarity: SPECIAL
+  EVOKER_SPAWN_EGG:
+    rarity: SPECIAL
+  FOX_SPAWN_EGG:
+    rarity: SPECIAL
+  FROG_SPAWN_EGG:
+    rarity: SPECIAL
+  GHAST_SPAWN_EGG:
+    rarity: SPECIAL
+  GLOW_SQUID_SPAWN_EGG:
+    rarity: SPECIAL
+  GOAT_SPAWN_EGG:
+    rarity: SPECIAL
+  GUARDIAN_SPAWN_EGG:
+    rarity: SPECIAL
+  HOGLIN_SPAWN_EGG:
+    rarity: SPECIAL
+  HORSE_SPAWN_EGG:
+    rarity: SPECIAL
+  HUSK_SPAWN_EGG:
+    rarity: SPECIAL
+  LLAMA_SPAWN_EGG:
+    rarity: SPECIAL
+  MAGMA_CUBE_SPAWN_EGG:
+    rarity: SPECIAL
+  MOOSHROOM_SPAWN_EGG:
+    rarity: SPECIAL
+  MULE_SPAWN_EGG:
+    rarity: SPECIAL
+  OCELOT_SPAWN_EGG:
+    rarity: SPECIAL
+  PANDA_SPAWN_EGG:
+    rarity: SPECIAL
+  PARROT_SPAWN_EGG:
+    rarity: SPECIAL
+  PHANTOM_SPAWN_EGG:
+    rarity: SPECIAL
+  PIG_SPAWN_EGG:
+    rarity: SPECIAL
+  PIGLIN_SPAWN_EGG:
+    rarity: SPECIAL
+  PIGLIN_BRUTE_SPAWN_EGG:
+    rarity: SPECIAL
+  PILLAGER_SPAWN_EGG:
+    rarity: SPECIAL
+  POLAR_BEAR_SPAWN_EGG:
+    rarity: SPECIAL
+  PUFFERFISH_SPAWN_EGG:
+    rarity: SPECIAL
+  RABBIT_SPAWN_EGG:
+    rarity: SPECIAL
+  RAVAGER_SPAWN_EGG:
+    rarity: SPECIAL
+  SALMON_SPAWN_EGG:
+    rarity: SPECIAL
+  SHEEP_SPAWN_EGG:
+    rarity: SPECIAL
+  SHULKER_SPAWN_EGG:
+    rarity: SPECIAL
+  SILVERFISH_SPAWN_EGG:
+    rarity: SPECIAL
+  SKELETON_SPAWN_EGG:
+    rarity: SPECIAL
+  SLIME_SPAWN_EGG:
+    rarity: SPECIAL
+  SPIDER_SPAWN_EGG:
+    rarity: SPECIAL
+  SQUID_SPAWN_EGG:
+    rarity: SPECIAL
+  STRAY_SPAWN_EGG:
+    rarity: SPECIAL
+  STRIDER_SPAWN_EGG:
+    rarity: SPECIAL
+  TADPOLE_SPAWN_EGG:
+    rarity: SPECIAL
+  TROPICAL_FISH_SPAWN_EGG:
+    rarity: SPECIAL
+  TURTLE_SPAWN_EGG:
+    rarity: SPECIAL
+  VEX_SPAWN_EGG:
+    rarity: SPECIAL
+  VILLAGER_SPAWN_EGG:
+    rarity: SPECIAL
+  VINDICATOR_SPAWN_EGG:
+    rarity: SPECIAL
+  WANDERING_TRADER_SPAWN_EGG:
+    rarity: SPECIAL
+  WARDEN_SPAWN_EGG:
+    rarity: SPECIAL
+  WITCH_SPAWN_EGG:
+    rarity: SPECIAL
+  WITHER_SKELETON_SPAWN_EGG:
+    rarity: SPECIAL
+  WOLF_SPAWN_EGG:
+    rarity: SPECIAL
+  ZOGLIN_SPAWN_EGG:
+    rarity: SPECIAL
+  ZOMBIE_HORSE_SPAWN_EGG:
+    rarity: SPECIAL
+  ZOMBIE_SPAWN_EGG:
+    rarity: SPECIAL
+  ZOMBIE_VILLAGER_SPAWN_EGG:
+    rarity: SPECIAL
+  ZOMBIFIED_PIGLIN_SPAWN_EGG:
+    rarity: SPECIAL

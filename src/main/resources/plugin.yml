@@ -1,0 +1,4 @@
+name: VanillaItems
+version: 0.1
+main: com.github.firewolf8385.vanillaitems.VanillaItems
+api-version: 1.19
