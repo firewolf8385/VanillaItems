@@ -3,7 +3,6 @@ package com.github.firewolf8385.vanillaitems;
 import com.github.firewolf8385.customitemapi.CustomItemAPI;
 import com.github.firewolf8385.customitemapi.addon.Addon;
 import com.github.firewolf8385.customitemapi.items.CustomItem;
-import com.github.firewolf8385.customitemapi.items.ItemAtrribute;
 import com.github.firewolf8385.customitemapi.items.ItemRarity;
 import com.github.firewolf8385.customitemapi.items.ItemType;
 import com.github.firewolf8385.customitemapi.utils.items.ItemBuilder;
@@ -63,81 +62,27 @@ public final class VanillaItems extends JavaPlugin implements Listener {
                 }
 
                 if(item.contains("defense")) {
-                    ItemAtrribute.Slot slot;
-                    switch (customItem.getType()) {
-                        case HELMET -> slot = ItemAtrribute.Slot.HELMET;
-                        case CHESTPLATE -> slot = ItemAtrribute.Slot.CHESTPLATE;
-                        case LEGGINGS -> slot = ItemAtrribute.Slot.LEGGINGS;
-                        case BOOTS -> slot = ItemAtrribute.Slot.BOOTS;
-                        default -> slot = ItemAtrribute.Slot.MAIN_HAND;
-                    }
-
-                    customItem.addItemAttribute(new ItemAtrribute(ItemAtrribute.Type.DEFENSE, item.getInt("defense"), slot));
+                    customItem.addItemAttribute(CustomItemAPI.getAttributeManager().getAttribute("defense"), item.getInt("defense"));
                 }
 
                 if(item.contains("toughness")) {
-                    ItemAtrribute.Slot slot;
-                    switch (customItem.getType()) {
-                        case HELMET -> slot = ItemAtrribute.Slot.HELMET;
-                        case CHESTPLATE -> slot = ItemAtrribute.Slot.CHESTPLATE;
-                        case LEGGINGS -> slot = ItemAtrribute.Slot.LEGGINGS;
-                        case BOOTS -> slot = ItemAtrribute.Slot.BOOTS;
-                        default -> slot = ItemAtrribute.Slot.MAIN_HAND;
-                    }
-
-                    customItem.addItemAttribute(new ItemAtrribute(ItemAtrribute.Type.TOUGHNESS, item.getInt("toughness"), slot));
+                    customItem.addItemAttribute(CustomItemAPI.getAttributeManager().getAttribute("toughness"), item.getInt("toughness"));
                 }
 
                 if(item.contains("health")) {
-                    ItemAtrribute.Slot slot;
-                    switch (customItem.getType()) {
-                        case HELMET -> slot = ItemAtrribute.Slot.HELMET;
-                        case CHESTPLATE -> slot = ItemAtrribute.Slot.CHESTPLATE;
-                        case LEGGINGS -> slot = ItemAtrribute.Slot.LEGGINGS;
-                        case BOOTS -> slot = ItemAtrribute.Slot.BOOTS;
-                        default -> slot = ItemAtrribute.Slot.MAIN_HAND;
-                    }
-
-                    customItem.addItemAttribute(new ItemAtrribute(ItemAtrribute.Type.HEALTH, item.getInt("health"), slot));
+                    customItem.addItemAttribute(CustomItemAPI.getAttributeManager().getAttribute("health"), item.getInt("health"));
                 }
 
                 if(item.contains("speed")) {
-                    ItemAtrribute.Slot slot;
-                    switch (customItem.getType()) {
-                        case HELMET -> slot = ItemAtrribute.Slot.HELMET;
-                        case CHESTPLATE -> slot = ItemAtrribute.Slot.CHESTPLATE;
-                        case LEGGINGS -> slot = ItemAtrribute.Slot.LEGGINGS;
-                        case BOOTS -> slot = ItemAtrribute.Slot.BOOTS;
-                        default -> slot = ItemAtrribute.Slot.MAIN_HAND;
-                    }
-
-                    customItem.addItemAttribute(new ItemAtrribute(ItemAtrribute.Type.SPEED, item.getInt("speed"), slot));
+                    customItem.addItemAttribute(CustomItemAPI.getAttributeManager().getAttribute("speed"), item.getInt("speed"));
                 }
 
                 if(item.contains("luck")) {
-                    ItemAtrribute.Slot slot;
-                    switch (customItem.getType()) {
-                        case HELMET -> slot = ItemAtrribute.Slot.HELMET;
-                        case CHESTPLATE -> slot = ItemAtrribute.Slot.CHESTPLATE;
-                        case LEGGINGS -> slot = ItemAtrribute.Slot.LEGGINGS;
-                        case BOOTS -> slot = ItemAtrribute.Slot.BOOTS;
-                        default -> slot = ItemAtrribute.Slot.MAIN_HAND;
-                    }
-
-                    customItem.addItemAttribute(new ItemAtrribute(ItemAtrribute.Type.LUCK, item.getInt("luck"), slot));
+                    customItem.addItemAttribute(CustomItemAPI.getAttributeManager().getAttribute("luck"), item.getInt("luck"));
                 }
 
                 if(item.contains("damage")) {
-                    ItemAtrribute.Slot slot;
-                    switch (customItem.getType()) {
-                        case HELMET -> slot = ItemAtrribute.Slot.HELMET;
-                        case CHESTPLATE -> slot = ItemAtrribute.Slot.CHESTPLATE;
-                        case LEGGINGS -> slot = ItemAtrribute.Slot.LEGGINGS;
-                        case BOOTS -> slot = ItemAtrribute.Slot.BOOTS;
-                        default -> slot = ItemAtrribute.Slot.MAIN_HAND;
-                    }
-
-                    customItem.addItemAttribute(new ItemAtrribute(ItemAtrribute.Type.DAMAGE, item.getInt("damage"), slot));
+                    customItem.addItemAttribute(CustomItemAPI.getAttributeManager().getAttribute("damage"), item.getInt("damage"));
                 }
 
                 addon.registerItem(customItem);
