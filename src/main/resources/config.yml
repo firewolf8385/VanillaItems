@@ -72,7 +72,8 @@ Items:
     type: AXE
     rarity: COMMON
     durability: 59
-    damage: 7
+    attributes:
+      damage: 7
   WOODEN_HOE:
     type: HOE
     rarity: COMMON
@@ -89,7 +90,8 @@ Items:
     type: SWORD
     rarity: COMMON
     durability: 59
-    damage: 4
+    attributes:
+      damage: 4
   YELLOW_DYE:
     type: DYE
     rarity: COMMON
@@ -98,82 +100,98 @@ Items:
     type: HELMET
     rarity: COMMON
     durability: 55
-    defense: 1
+    attributes:
+      defense: 1
   LEATHER_CHESTPLATE:
     type: CHESTPLATE
     rarity: COMMON
     durability: 80
-    defense: 3
+    attributes:
+      defense: 3
   LEATHER_LEGGINGS:
     type: LEGGINGS
     rarity: COMMON
     durability: 75
-    defense: 2
+    attributes:
+      defense: 2
   LEATHER_BOOTS:
     type: BOOTS
     rarity: COMMON
     durability: 65
-    defense: 1
+    attributes:
+      defense: 1
   GOLD_HELMET:
     type: HELMET
     rarity: COMMON
     durability: 77
-    defense: 2
+    attributes:
+      defense: 2
   GOLD_CHESTPLATE:
     type: CHESTPLATE
     rarity: COMMON
     durability: 112
-    defense: 5
+    attributes:
+      defense: 5
   GOLD_LEGGINGS:
     type: LEGGINGS
     rarity: COMMON
     durability: 105
-    defense: 3
+    attributes:
+      defense: 3
   GOLD_BOOTS:
     type: BOOTS
     rarity: COMMON
     durability: 91
-    defense: 1
+    attributes:
+      defense: 1
   CHAINMAIL_HELMET:
     type: HELMET
     rarity: COMMON
     durability: 165
-    defense: 2
+    attributes:
+      defense: 2
   CHAINMAIL_CHESTPLATE:
     type: CHESTPLATE
     rarity: COMMON
     durability: 240
-    defense: 5
+    attributes:
+      defense: 5
   CHAINMAIL_LEGGINGS:
     type: LEGGINGS
     rarity: COMMON
     durability: 225
-    defense: 4
+    attributes:
+      defense: 4
   CHAINMAIL_BOOTS:
     type: BOOTS
     rarity: COMMON
     durability: 195
-    defense: 1
+    attributes:
+      defense: 1
   IRON_HELMET:
     type: HELMET
     rarity: COMMON
     durability: 165
-    defense: 2
+    attributes:
+      defense: 2
   IRON_CHESTPLATE:
     type: CHESTPLATE
     rarity: COMMON
     durability: 240
-    defense: 6
+    attributes:
+      defense: 6
   IRON_LEGGINGS:
     type: LEGGINGS
     rarity: COMMON
     durability: 225
-    defense: 5
+    attributes:
+      defense: 5
   IRON_BOOTS:
     type: BOOTS
     rarity: COMMON
     durability: 195
-    defense: 2
+    attributes:
+      defense: 2
 
   RABBIT_FOOT:
     rarity: UNCOMMON
@@ -191,7 +209,8 @@ Items:
     type: HELMET
     rarity: UNCOMMON
     durability: 275
-    defense: 2
+    attributes:
+      defense: 2
 
   ANCIENT_DEBRIS:
     rarity: RARE
@@ -206,20 +225,23 @@ Items:
     type: BOOTS
     rarity: RARE
     durability: 429
-    defense: 3
-    toughness: 2
+    attributes:
+      defense: 3
+      toughness: 2
   DIAMOND_CHESTPLATE:
     type: CHESTPLATE
     rarity: RARE
     durability: 528
-    defense: 8
-    toughness: 2
+    attributes:
+      defense: 8
+      toughness: 2
   DIAMOND_HELMET:
     type: HELMET
     rarity: RARE
     durability: 363
-    defense: 3
-    toughness: 2
+    attributes:
+      defense: 3
+      toughness: 2
   DIAMOND_HOE:
     type: HOE
     rarity: RARE
@@ -227,8 +249,9 @@ Items:
     type: LEGGINGS
     rarity: RARE
     durability: 495
-    defense: 6
-    toughness: 2
+    attributes:
+      defense: 6
+      toughness: 2
   DIAMOND_PICKAXE:
     type: PICKAXE
     rarity: RARE
@@ -269,20 +292,23 @@ Items:
     type: BOOTS
     rarity: EPIC
     durability: 481
-    defense: 3
-    toughness: 3
+    attributes:
+      defense: 3
+      toughness: 3
   NETHERITE_CHESTPLATE:
     type: CHESTPLATE
     rarity: EPIC
     durability: 592
-    defense: 8
-    toughness: 3
+    attributes:
+      defense: 8
+      toughness: 3
   NETHERITE_HELMET:
     type: HELMET
     rarity: EPIC
     durability: 407
-    defense: 3
-    toughness: 3
+    attributes:
+      defense: 3
+      toughness: 3
   NETHERITE_HOE:
     type: HOE
     rarity: EPIC
@@ -292,8 +318,9 @@ Items:
     type: LEGGINGS
     rarity: EPIC
     durability: 555
-    defense: 6
-    toughness: 3
+    attributes:
+      defense: 6
+      toughness: 3
   NETHERITE_PICKAXE:
     type: PICKAXE
     rarity: EPIC

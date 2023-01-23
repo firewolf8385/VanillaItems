@@ -61,28 +61,14 @@ public final class VanillaItems extends JavaPlugin implements Listener {
                     customItem.setType(ItemType.valueOf(item.getString("type")));
                 }
 
-                if(item.contains("defense")) {
-                    customItem.addItemAttribute(CustomItemAPI.getAttributeManager().getAttribute("defense"), item.getInt("defense"));
-                }
+                if(item.contains("attributes")) {
+                    ConfigurationSection attributes = item.getConfigurationSection("attributes");
 
-                if(item.contains("toughness")) {
-                    customItem.addItemAttribute(CustomItemAPI.getAttributeManager().getAttribute("toughness"), item.getInt("toughness"));
-                }
-
-                if(item.contains("health")) {
-                    customItem.addItemAttribute(CustomItemAPI.getAttributeManager().getAttribute("health"), item.getInt("health"));
-                }
-
-                if(item.contains("speed")) {
-                    customItem.addItemAttribute(CustomItemAPI.getAttributeManager().getAttribute("speed"), item.getInt("speed"));
-                }
-
-                if(item.contains("luck")) {
-                    customItem.addItemAttribute(CustomItemAPI.getAttributeManager().getAttribute("luck"), item.getInt("luck"));
-                }
-
-                if(item.contains("damage")) {
-                    customItem.addItemAttribute(CustomItemAPI.getAttributeManager().getAttribute("damage"), item.getInt("damage"));
+                    if(attributes != null) {
+                        for(String attribute : attributes.getKeys(false)) {
+                            customItem.addItemAttribute(CustomItemAPI.getAttributeManager().getAttribute(attribute), attributes.getDouble(attribute));
+                        }
+                    }
                 }
 
                 addon.registerItem(customItem);
