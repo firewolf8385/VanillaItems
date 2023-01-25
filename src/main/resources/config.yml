@@ -10,6 +10,8 @@ Items:
   BOW:
     type: BOW
     durability: 384
+    attributes:
+      damage: 6
   BROWN_DYE:
     type: DYE
     rarity: COMMON
@@ -18,6 +20,8 @@ Items:
   CROSSBOW:
     type: CROSSBOW
     durability: 465
+    attributes:
+      damage: 7
   COMPASS:
     type: COMPASS
     rarity: COMMON
@@ -78,14 +82,20 @@ Items:
     type: HOE
     rarity: COMMON
     durability: 59
+    attributes:
+      damage: 1
   WOODEN_PICKAXE:
     type: PICKAXE
     rarity: COMMON
     durability: 59
+    attributes:
+      damage: 2
   WOODEN_SHOVEL:
     type: SHOVEL
     rarity: COMMON
     durability: 59
+    attributes:
+      damage: 2.5
   WOODEN_SWORD:
     type: SWORD
     rarity: COMMON
@@ -219,6 +229,9 @@ Items:
   DIAMOND_AXE:
     type: AXE
     rarity: RARE
+    durability: 1561
+    attributes:
+      damage: 9
   DIAMOND_BLOCK:
     rarity: RARE
   DIAMOND_BOOTS:
@@ -245,6 +258,9 @@ Items:
   DIAMOND_HOE:
     type: HOE
     rarity: RARE
+    durability: 1561
+    attributes:
+      damage: 1
   DIAMOND_LEGGINGS:
     type: LEGGINGS
     rarity: RARE
@@ -255,12 +271,21 @@ Items:
   DIAMOND_PICKAXE:
     type: PICKAXE
     rarity: RARE
+    durability: 1561
+    attributes:
+      damage: 5
   DIAMOND_SHOVEL:
     type: SHOVEL
     rarity: RARE
+    durability: 1561
+    attributes:
+      damage: 5.5
   DIAMOND_SWORD:
     type: SWORD
     rarity: RARE
+    durability: 1561
+    attributes:
+      damage: 7
   DISC_FRAGMENT:
     rarity: RARE
   ECHO_SHARD:
@@ -272,6 +297,9 @@ Items:
   TRIDENT:
     type: TRIDENT
     rarity: RARE
+    durability: 250
+    attributes:
+      damage: 9
   WITHER_SKELETON_SKULL:
     rarity: RARE
 
@@ -288,6 +316,9 @@ Items:
   NETHERITE_AXE:
     type: AXE
     rarity: EPIC
+    durability: 2031
+    attributes:
+      damage: 10
   NETHERITE_BOOTS:
     type: BOOTS
     rarity: EPIC
@@ -312,6 +343,9 @@ Items:
   NETHERITE_HOE:
     type: HOE
     rarity: EPIC
+    durability: 2031
+    attributes:
+      damage: 1
   NETHERITE_INGOT:
     rarity: EPIC
   NETHERITE_LEGGINGS:
@@ -324,12 +358,21 @@ Items:
   NETHERITE_PICKAXE:
     type: PICKAXE
     rarity: EPIC
+    durability: 2031
+    attributes:
+      damage: 6
   NETHERITE_SHOVEL:
     type: SHOVEL
     rarity: EPIC
+    durability: 2031
+    attributes:
+      damage: 6.5
   NETHERITE_SWORD:
     type: SWORD
     rarity: EPIC
+    durability: 2031
+    attributes:
+      damage: 8
   SHULKER_BOX:
     rarity: EPIC
 
@@ -343,7 +386,11 @@ Items:
     rarity: LEGENDARY
   SKELETON_SKULL:
     rarity: LEGENDARY
+  SPAWNER:
+    rarity: LEGENDARY
   ZOMBIE_SKULL:
+    rarity: LEGENDARY
+  ZOMBIE_HEAD:
     rarity: LEGENDARY
 
   BARRIER:
@@ -388,6 +435,8 @@ Items:
     rarity: SPECIAL
   BLAZE_SPAWN_EGG:
     rarity: SPECIAL
+  CAMEL_SPAWN_EGG:
+    rarity: SPECIAL
   CAT_SPAWN_EGG:
     rarity: SPECIAL
   CAVE_SPIDER_SPAWN_EGG:
@@ -407,6 +456,8 @@ Items:
   DROWNED_SPAWN_EGG:
     rarity: SPECIAL
   ELDER_GUARDIAN_SPAWN_EGG:
+    rarity: SPECIAL
+  ENDER_DRAGON_SPAWN_EGG:
     rarity: SPECIAL
   ENDERMAN_SPAWN_EGG:
     rarity: SPECIAL
@@ -431,6 +482,8 @@ Items:
   HORSE_SPAWN_EGG:
     rarity: SPECIAL
   HUSK_SPAWN_EGG:
+    rarity: SPECIAL
+  IRON_GOLEM_SPAWN_EGG:
     rarity: SPECIAL
   LLAMA_SPAWN_EGG:
     rarity: SPECIAL
@@ -472,9 +525,13 @@ Items:
     rarity: SPECIAL
   SILVERFISH_SPAWN_EGG:
     rarity: SPECIAL
+  SKELETON_HORSE_SPAWN_EGG:
+    rarity: SPECIAL
   SKELETON_SPAWN_EGG:
     rarity: SPECIAL
   SLIME_SPAWN_EGG:
+    rarity: SPECIAL
+  SNOW_GOLEM_SPAWN_EGG:
     rarity: SPECIAL
   SPIDER_SPAWN_EGG:
     rarity: SPECIAL
@@ -485,6 +542,8 @@ Items:
   STRIDER_SPAWN_EGG:
     rarity: SPECIAL
   TADPOLE_SPAWN_EGG:
+    rarity: SPECIAL
+  TRADER_LLAMA_SPAWN_EGG:
     rarity: SPECIAL
   TROPICAL_FISH_SPAWN_EGG:
     rarity: SPECIAL
@@ -503,6 +562,8 @@ Items:
   WITCH_SPAWN_EGG:
     rarity: SPECIAL
   WITHER_SKELETON_SPAWN_EGG:
+    rarity: SPECIAL
+  WITHER_SPAWN_EGG:
     rarity: SPECIAL
   WOLF_SPAWN_EGG:
     rarity: SPECIAL
